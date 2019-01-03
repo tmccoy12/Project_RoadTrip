@@ -206,7 +206,7 @@ $("#gasStation").on("click", function (event) {
 
 var displayGasList = function (lati, long) {
 
-    var apiUrl = "http://api.mygasfeed.com/stations/radius/" + lati + "/" + long + "/25/reg/distance/dfoh89ze54.json";
+    var apiUrl = "https://api.mygasfeed.com/stations/radius/" + lati + "/" + long + "/25/reg/distance/dfoh89ze54.json";
     $.ajax({
         url: apiUrl,
         method: 'GET'
